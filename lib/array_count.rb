@@ -6,6 +6,6 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  array.select { |num| num.to_str.empty? }
+  array.select { |num| num.to_s.empty? }
   # Return the total number of EMPTY strings in the provided array using the count enumerable
  end
